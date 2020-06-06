@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col d-flex align-items-center">
                 <p class="mb-0">
-                    <a href="#">chiropractic@email.com</a> | <a href="#">Help Desk</a> |
+                    <a href="mailto:wearemax@yahoo.com">wearemax@yahoo.com</a> | <a href="#contact">Help Desk</a> |
                     @if (Route::has('login'))
                         @auth
                             <a href="{{ url('/home') }}">Home</a>
@@ -57,20 +57,20 @@
     <div class="container">
         <div class="row justify-content-between">
             <div class="col-md-3 mb-md-0 mb-4 d-flex align-items-center">
-                <a class="navbar-brand" href="/">Coronavirus</a>
+                <a class="navbar-brand" href="/"><span><img src="{{ asset('images/icon.png') }}" width="40" alt=""></span> Coronavirus</a>
             </div>
             <div class="col-md-7">
                 <div class="row">
                     <div class="col-md-8 mb-md-0 mb-3">
                         <div class="top-wrap d-flex">
                             <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-location-arrow"></span></div>
-                            <div class="text"><span>Address</span><span>198 West 21th Street, Suite 721 New York NY 10016</span></div>
+                            <div class="text"><span>Address</span><span>Armenia, Yerevan 0054</span></div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="top-wrap d-flex">
                             <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-phone"></span></div>
-                            <div class="text"><span>Call us</span><span>(+01) 123 456 7890</span></div>
+                            <div class="text"><span>Call us</span><span>(+374) 93 404 208</span></div>
                         </div>
                     </div>
                 </div>
@@ -84,18 +84,15 @@
             <span class="fa fa-bars"></span> Menu
         </button>
         <div class="order-lg-last">
-            <a href="#" class="btn btn-primary">Make an appointment</a>
+            <a href="#contact" class="btn btn-primary">Make an appointment</a>
         </div>
         <div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-                <li class="nav-item"><a href="team.html" class="nav-link">Team</a></li>
-                <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
-                <li class="nav-item"><a href="department.html" class="nav-link">Departments</a></li>
-                <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
-                <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                <li class="nav-item active"><a href="/" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#armenia" class="nav-link">Armenia</a></li>
+                <li class="nav-item"><a href="#doctors" class="nav-link">Doctors</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
         </div>
     </div>

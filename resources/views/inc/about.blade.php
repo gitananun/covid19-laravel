@@ -11,42 +11,27 @@
             <div class="col-md-6 pr-md-5 py-md-5">
                 <div class="row justify-content-start py-5">
                     <div class="col-md-12 heading-section ftco-animate">
-                        <span class="subheading">Welcome to Chiropractic</span>
-                        <h2 class="mb-4">About Chiropractic</h2>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                        <span class="subheading">#COVID19</span>
+                        <h2 class="mb-4">How does the new coronavirus spread?</h2>
+                        <p>COVID-19 appeared in Wuhan, a city in China, in December 2019. Although health officials are still tracing the exact source of this new coronavirus, early hypotheses thought it may be linked to a seafood market in Wuhan, China. Some people who visited the market developed 
+                            viral pneumonia caused by the new coronavirus. A study that came out on Jan. 25, 2020, notes that the individual with the first reported case became ill on
+                            Dec. 1, 2019, and had no link to the seafood market. Investigations are ongoing as to how this virus originated and spread. 
+                        </p>
                     </div>
                 </div>
                 <div class="row ftco-counter pb-5" id="section-counter">
-                    <div class="col-md-6 col-lg-4 d-flex justify-content-center counter-wrap ftco-animate">
+                    <div class="col-md-12 col-lg-12 d-flex justify-content-center counter-wrap ftco-animate">
                         <div class="block-18">
                             <div class="text">
-                                <strong class="number" data-number="45">0</strong>
+                                <strong class="number" data-number="{{$world['cases']}}">0</strong>
                             </div>
                             <div class="text">
-                                <span>Years of <br>Experienced</span>
+                            <span>Confirmed in the World</span>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 d-flex justify-content-center counter-wrap ftco-animate">
-                        <div class="block-18">
-                            <div class="text">
-                                <strong class="number" data-number="2342">0</strong>
-                            </div>
-                            <div class="text">
-                                <span>Happy <br>Customers</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 d-flex justify-content-center counter-wrap ftco-animate">
-                        <div class="block-18">
-                            <div class="text">
-                                <strong class="number" data-number="30">0</strong>
-                            </div>
-                            <div class="text">
-                                <span>Award <br>Winning</span>
-                            </div>
-                        </div>
-                    </div>
+                    
+                    
                 </div>
             </div>
         </div>

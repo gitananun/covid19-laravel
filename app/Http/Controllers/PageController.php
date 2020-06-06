@@ -9,11 +9,12 @@ class PageController extends Controller
 {
     public function index(){
        $armenia = Http::get('https://coronavirus-19-api.herokuapp.com/countries/Armenia');
-
-       if ($armenia->failed()){
-           $countries = [];
+       $world = Http::get('https://coronavirus-19-api.herokuapp.com/countries/world');
+       if ($armenia->failed() || $world->failed()){
+           $armenia = "No info";
+           $world = "No info";
        }
-       return view('welcome', compact('armenia'));
+       return view('welcome', compact('armenia', 'world'));
     }
 
     public function allCountries(){
