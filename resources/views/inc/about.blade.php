@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row d-flex no-gutters">
             <div class="col-md-6 d-flex order-md-last">
-                <div class="img img-video d-flex align-self-stretch align-items-center justify-content-center mb-4 mb-sm-0" style="background-image:url(images/about.jpg);">
+                <div class="img img-video d-flex align-self-stretch align-items-center justify-content-center mb-4 mb-sm-0" style="background-image:url({{ asset('images/doctor.jpg') }});">
                     <a href="https://vimeo.com/45830194" class="icon-video popup-vimeo d-flex justify-content-center align-items-center">
                         <span class="fa fa-play"></span>
                     </a>
@@ -23,7 +23,7 @@
                     <div class="col-md-12 col-lg-12 d-flex justify-content-center counter-wrap ftco-animate">
                         <div class="block-18">
                             <div class="text">
-{{--                                <strong class="number" data-number="{{$world['cases']}}">0</strong>--}}
+                                <strong class="number" data-number="{{$world['cases']}}">0</strong>
                             </div>
                             <div class="text">
                             <span>Confirmed in the World</span>

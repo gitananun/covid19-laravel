@@ -12,46 +12,46 @@
     @include('inc.booking')
     <!-- END booking -->
 
-{{--    <div class="container mb-5" id="armenia" style="margin-top: 100px">--}}
-{{--        <div class="row">--}}
-{{--            <br/>--}}
-{{--            <div class="col text-center">--}}
-{{--                <h2><span class="text-danger">#COVID</span><span class="text-info">19</span> <span class="text-warning">ARMENIA</span></h2>--}}
-{{--            </div>--}}
-{{--        </div>--}}
-{{--        <div class="row text-center mt-5">--}}
-{{--            <div class="col">--}}
-{{--                <div class="counter">--}}
-{{--                    <img src="{{ asset('images/armicons/arm4.png') }}" width="150" alt="">--}}
-{{--                    <h1 class="timer count-title count-number text-primary font-weight-bolder" data-to="{{ $armenia['todayCases'] }}" data-speed="1500"></h1>--}}
-{{--                    <p class="count-text text-uppercase">Today Cases</p>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--            <div class="col">--}}
-{{--                <div class="counter">--}}
-{{--                    <img src="{{ asset('images/armicons/arm3.png') }}" width="150" alt="">--}}
-{{--                    <h1 class="timer count-title count-number text-danger font-weight-bolder" data-to="{{ $armenia['todayDeaths'] }}" data-speed="1500"></h1>--}}
-{{--                    <p class="count-text text-uppercase">Today Deaths</p>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--            <div class="col">--}}
-{{--                <div class="counter">--}}
-{{--                    <img src="{{ asset('images/armicons/arm1.png') }}" width="150" alt="">--}}
-{{--                    <h1 class="timer count-title count-number text-success font-weight-bolder" data-to="{{ $armenia['cases'] }}" data-speed="1500"></h1>--}}
-{{--                    <p class="count-text text-uppercase">Overall Cases</p>--}}
-{{--                </div></div>--}}
-{{--            <div class="col">--}}
-{{--                <div class="counter">--}}
-{{--                    <img src="{{ asset('images/armicons/arm2.png') }}" width="150" alt="">--}}
-{{--                    <h1 class="timer count-title count-number text-dark font-weight-bolder" data-to="{{ $armenia['deaths'] }}" data-speed="1500"></h1>--}}
-{{--                    <p class="count-text text-uppercase">Overall Deaths</p>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--        </div>--}}
-{{--        <div class="text-center">--}}
-{{--            <a href="{{ route('countries.all') }}"><button class="btn btn-lg btn-info mt-5">SEE ALL COUNTRIES</button></a>--}}
-{{--        </div>--}}
-{{--    </div>--}}
+    <div class="container mb-5" id="armenia" style="margin-top: 100px">
+        <div class="row">
+            <br/>
+            <div class="col text-center">
+                <h2><span class="text-danger">#COVID</span><span class="text-info">19</span> <span class="text-warning">ARMENIA</span></h2>
+            </div>
+        </div>
+        <div class="row text-center mt-5">
+            <div class="col">
+                <div class="counter">
+                    <img src="{{ asset('images/armicons/arm4.png') }}" width="150" alt="">
+                    <h1 class="timer count-title count-number text-primary font-weight-bolder" data-to="{{ $armenia['todayCases'] }}" data-speed="1500"></h1>
+                    <p class="count-text text-uppercase">Today Cases</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="counter">
+                    <img src="{{ asset('images/armicons/arm3.png') }}" width="150" alt="">
+                    <h1 class="timer count-title count-number text-danger font-weight-bolder" data-to="{{ $armenia['todayDeaths'] }}" data-speed="1500"></h1>
+                    <p class="count-text text-uppercase">Today Deaths</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="counter">
+                    <img src="{{ asset('images/armicons/arm1.png') }}" width="150" alt="">
+                    <h1 class="timer count-title count-number text-success font-weight-bolder" data-to="{{ $armenia['cases'] }}" data-speed="1500"></h1>
+                    <p class="count-text text-uppercase">Overall Cases</p>
+                </div></div>
+            <div class="col">
+                <div class="counter">
+                    <img src="{{ asset('images/armicons/arm2.png') }}" width="150" alt="">
+                    <h1 class="timer count-title count-number text-dark font-weight-bolder" data-to="{{ $armenia['deaths'] }}" data-speed="1500"></h1>
+                    <p class="count-text text-uppercase">Overall Deaths</p>
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+            <a href="{{ route('countries.all') }}"><button class="btn btn-lg btn-info mt-5">SEE ALL COUNTRIES</button></a>
+        </div>
+    </div>
 
     @include('inc.team')
     <!-- END team -->
@@ -127,14 +127,14 @@
 					<div class="col-md-8">
 						<div class="tab-content">
 						  <div class="tab-pane container p-0 active" id="services-1">
-						  	<div class="img" style="background-image: url(images/work-2.jpg);"></div>
+						  	<div class="img" style="background-image: url({{ asset('images/protect/hands.jpeg') }});"></div>
 						  	<h3><a href="https://www.cdc.gov/handwashing/when-how-handwashing.html">Wash your hands often</a></h3>
 						  	<p>Wash your hands often with soap and water for at least 20 seconds especially after you have been in a public place, or after blowing your nose, coughing, or sneezing.
                                 If soap and water are not readily available, use a hand sanitizer that contains at least 60% alcohol. Cover all surfaces of your hands and rub them together until they feel dry.
                                 Avoid touching your eyes, nose, and mouth with unwashed hands.</p>
 						  </div>
 						  <div class="tab-pane container p-0 fade" id="services-2">
-						  	<div class="img" style="background-image: url(images/work-3.jpg);"></div>
+						  	<div class="img" style="background-image: url({{ asset('images/protect/distance.jpg') }});"></div>
 						  	<h3>Avoid Close Contact</h3>
 						  	<p>Avoid close contact with people who are sick, even inside your home. If possible, maintain 6 feet between the person who is sick and other household members.
                                 Put distance between yourself and other people outside of your home.
@@ -145,7 +145,7 @@
                                 Keeping distance from others is especially important for people who are at higher risk of getting very sick.</p>
 						  </div>
 						  <div class="tab-pane container p-0 fade" id="services-3">
-						  	<div class="img" style="background-image: url(images/work-4.jpg);"></div>
+						  	<div class="img" style="background-image: url({{ asset('images/protect/mask.jpg') }});"></div>
 						  	<h3>Cover your mouth and nose with a cloth face cover when around others</h3>
 						  	<p>You could spread COVID-19 to others even if you do not feel sick.
                                 Everyone should wear a cloth face cover when they have to go out in public, for example to the grocery store or to pick up other necessities.
@@ -155,21 +155,21 @@
                                 Continue to keep about 6 feet between yourself and others. The cloth face cover is not a substitute for social distancing.</p>
 						  </div>
 						  <div class="tab-pane container p-0 fade" id="services-4">
-						  	<div class="img" style="background-image: url(images/work-5.jpg);"></div>
+						  	<div class="img" style="background-image: url({{ asset('images/protect/cough.jpg') }});"></div>
 						  	<h3>Cover coughs and sneezes</h3>
 						  	<p>If you are in a private setting and do not have on your cloth face covering, remember to always cover your mouth and nose with a tissue when you cough or sneeze or use the inside of your elbow.
                                 Throw used tissues in the trash.
                                 Immediately wash your hands with soap and water for at least 20 seconds. If soap and water are not readily available, clean your hands with a hand sanitizer that contains at least 60% alcohol.</p>
 						  </div>
 						  <div class="tab-pane container p-0 fade" id="services-5">
-						  	<div class="img" style="background-image: url(images/work-6.jpg);"></div>
+						  	<div class="img" style="background-image: url({{ asset('images/protect/disinfect.jpg') }});"></div>
 						  	<h3>Clean and Disinfect</h3>
 						  	<p>Clean AND disinfect frequently touched surfaces daily. This includes tables, doorknobs, light switches, countertops, handles, desks, phones, keyboards, toilets, faucets, and sinks.
                                 If surfaces are dirty, clean them. Use detergent or soap and water prior to disinfection.
                                 Then, use a household disinfectant. Most common EPA-registered household disinfectantsexternal icon will work.</p>
 						  </div>
 						  <div class="tab-pane container p-0 fade" id="services-6">
-						  	<div class="img" style="background-image: url(images/work-1.jpg);"></div>
+						  	<div class="img" style="background-image: url({{ asset('images/protect/monitor.jpg') }});"></div>
 						  	<h3>Be alert for symptoms</h3>
 						  	<p>Watch for fever, cough, shortness of breath, or other symptoms of COVID-19.
                                 Especially important if you are running essential errands, going into the office or workplace, and in settings where it may be difficult to keep a physical distance of 6 feet.
