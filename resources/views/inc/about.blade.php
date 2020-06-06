@@ -13,9 +13,9 @@
                     <div class="col-md-12 heading-section ftco-animate">
                         <span class="subheading">#COVID19</span>
                         <h2 class="mb-4">How does the new coronavirus spread?</h2>
-                        <p>COVID-19 appeared in Wuhan, a city in China, in December 2019. Although health officials are still tracing the exact source of this new coronavirus, early hypotheses thought it may be linked to a seafood market in Wuhan, China. Some people who visited the market developed 
+                        <p>COVID-19 appeared in Wuhan, a city in China, in December 2019. Although health officials are still tracing the exact source of this new coronavirus, early hypotheses thought it may be linked to a seafood market in Wuhan, China. Some people who visited the market developed
                             viral pneumonia caused by the new coronavirus. A study that came out on Jan. 25, 2020, notes that the individual with the first reported case became ill on
-                            Dec. 1, 2019, and had no link to the seafood market. Investigations are ongoing as to how this virus originated and spread. 
+                            Dec. 1, 2019, and had no link to the seafood market. Investigations are ongoing as to how this virus originated and spread.
                         </p>
                     </div>
                 </div>
@@ -23,15 +23,15 @@
                     <div class="col-md-12 col-lg-12 d-flex justify-content-center counter-wrap ftco-animate">
                         <div class="block-18">
                             <div class="text">
-                                <strong class="number" data-number="{{$world['cases']}}">0</strong>
+{{--                                <strong class="number" data-number="{{$world['cases']}}">0</strong>--}}
                             </div>
                             <div class="text">
                             <span>Confirmed in the World</span>
                             </div>
                         </div>
                     </div>
-                    
-                    
+
+
                 </div>
             </div>
         </div>

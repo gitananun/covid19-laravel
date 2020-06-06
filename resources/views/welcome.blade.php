@@ -1,5 +1,9 @@
 @extends('layouts.main')
 
+@section('styles')
+    <link rel="stylesheet" href="">
+@endsection
+
 @section('content')
 
     @include('inc.hero')
@@ -8,46 +12,46 @@
     @include('inc.booking')
     <!-- END booking -->
 
-    <div class="container mb-5" id="armenia" style="margin-top: 100px">
-        <div class="row">
-            <br/>
-            <div class="col text-center">
-                <h2><span class="text-danger">#COVID</span><span class="text-info">19</span> <span class="text-warning">ARMENIA</span></h2>
-            </div>
-        </div>
-        <div class="row text-center mt-5">
-            <div class="col">
-                <div class="counter">
-                    <img src="{{ asset('images/armicons/arm4.png') }}" width="150" alt="">
-                    <h1 class="timer count-title count-number text-primary font-weight-bolder" data-to="{{ $armenia['todayCases'] }}" data-speed="1500"></h1>
-                    <p class="count-text text-uppercase">Today Cases</p>
-                </div>
-            </div>
-            <div class="col">
-                <div class="counter">
-                    <img src="{{ asset('images/armicons/arm3.png') }}" width="150" alt="">
-                    <h1 class="timer count-title count-number text-danger font-weight-bolder" data-to="{{ $armenia['todayDeaths'] }}" data-speed="1500"></h1>
-                    <p class="count-text text-uppercase">Today Deaths</p>
-                </div>
-            </div>
-            <div class="col">
-                <div class="counter">
-                    <img src="{{ asset('images/armicons/arm1.png') }}" width="150" alt="">
-                    <h1 class="timer count-title count-number text-success font-weight-bolder" data-to="{{ $armenia['cases'] }}" data-speed="1500"></h1>
-                    <p class="count-text text-uppercase">Overall Cases</p>
-                </div></div>
-            <div class="col">
-                <div class="counter">
-                    <img src="{{ asset('images/armicons/arm2.png') }}" width="150" alt="">
-                    <h1 class="timer count-title count-number text-dark font-weight-bolder" data-to="{{ $armenia['deaths'] }}" data-speed="1500"></h1>
-                    <p class="count-text text-uppercase">Overall Deaths</p>
-                </div>
-            </div>
-        </div>
-        <div class="text-center">
-            <a href="{{ route('countries.all') }}"><button class="btn btn-lg btn-info mt-5">SEE ALL COUNTRIES</button></a>
-        </div>
-    </div>
+{{--    <div class="container mb-5" id="armenia" style="margin-top: 100px">--}}
+{{--        <div class="row">--}}
+{{--            <br/>--}}
+{{--            <div class="col text-center">--}}
+{{--                <h2><span class="text-danger">#COVID</span><span class="text-info">19</span> <span class="text-warning">ARMENIA</span></h2>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--        <div class="row text-center mt-5">--}}
+{{--            <div class="col">--}}
+{{--                <div class="counter">--}}
+{{--                    <img src="{{ asset('images/armicons/arm4.png') }}" width="150" alt="">--}}
+{{--                    <h1 class="timer count-title count-number text-primary font-weight-bolder" data-to="{{ $armenia['todayCases'] }}" data-speed="1500"></h1>--}}
+{{--                    <p class="count-text text-uppercase">Today Cases</p>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="col">--}}
+{{--                <div class="counter">--}}
+{{--                    <img src="{{ asset('images/armicons/arm3.png') }}" width="150" alt="">--}}
+{{--                    <h1 class="timer count-title count-number text-danger font-weight-bolder" data-to="{{ $armenia['todayDeaths'] }}" data-speed="1500"></h1>--}}
+{{--                    <p class="count-text text-uppercase">Today Deaths</p>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="col">--}}
+{{--                <div class="counter">--}}
+{{--                    <img src="{{ asset('images/armicons/arm1.png') }}" width="150" alt="">--}}
+{{--                    <h1 class="timer count-title count-number text-success font-weight-bolder" data-to="{{ $armenia['cases'] }}" data-speed="1500"></h1>--}}
+{{--                    <p class="count-text text-uppercase">Overall Cases</p>--}}
+{{--                </div></div>--}}
+{{--            <div class="col">--}}
+{{--                <div class="counter">--}}
+{{--                    <img src="{{ asset('images/armicons/arm2.png') }}" width="150" alt="">--}}
+{{--                    <h1 class="timer count-title count-number text-dark font-weight-bolder" data-to="{{ $armenia['deaths'] }}" data-speed="1500"></h1>--}}
+{{--                    <p class="count-text text-uppercase">Overall Deaths</p>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--        <div class="text-center">--}}
+{{--            <a href="{{ route('countries.all') }}"><button class="btn btn-lg btn-info mt-5">SEE ALL COUNTRIES</button></a>--}}
+{{--        </div>--}}
+{{--    </div>--}}
 
     @include('inc.team')
     <!-- END team -->
@@ -62,31 +66,61 @@
     	<div class="container">
     		<div class="row justify-content-center mb-5">
           <div class="col-md-8 text-center heading-section ftco-animate">
-          	<span class="subheading">Services</span>
-            <h2 class="mb-4">Why Choose Us?</h2>
-            <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
+          	<span class="subheading">Coronavirus Disease 2019 (COVID-19)</span>
+            <h2 class="mb-4">How to Protect Yourself & Others</h2>
+            <p>Older adults and people who have severe underlying medical conditions like heart or lung disease or diabetes seem to be at higher risk for developing serious complications from COVID-19 illness. </p>
           </div>
         </div>
   			<div class="row tabulation mt-4 ftco-animate">
   				<div class="col-md-4">
 						<ul class="nav nav-pills nav-fill d-md-flex d-block flex-column">
 						  <li class="nav-item text-left">
-						    <a class="nav-link active py-4" data-toggle="tab" href="#services-1"><span class="flaticon-chiropractic mr-2"></span> Spinal Manupulation</a>
+						    <a class="nav-link active py-4" data-toggle="tab" href="#services-1">
+                                <span class="mr-2">
+                                    <img src="{{ asset("fonts/flaticon/img/hand-wash.png") }}" alt="" width="50">
+                                </span>
+                                Wash your hands often
+                            </a>
 						  </li>
 						  <li class="nav-item text-left">
-						    <a class="nav-link py-4" data-toggle="tab" href="#services-2"><span class="flaticon-electrotherapy mr-2"></span> Electrotherapy</a>
+                              <a class="nav-link py-4" data-toggle="tab" href="#services-2">
+                                <span class="mr-2">
+                                    <img src="{{ asset("fonts/flaticon/img/covid.png") }}" alt="" width="50">
+                                </span>
+                                  Avoid close contact
+                              </a>
 						  </li>
 						  <li class="nav-item text-left">
-						    <a class="nav-link py-4" data-toggle="tab" href="#services-3"><span class="flaticon-lymph-nodes mr-2"></span> Manual Lympahtic</a>
+                              <a class="nav-link py-4" data-toggle="tab" href="#services-3">
+                                <span class="mr-2">
+                                    <img src="{{ asset("fonts/flaticon/img/mask.png") }}" alt="" width="50">
+                                </span>
+                                  Cover Your mouth and nose
+                              </a>
 						  </li>
 						  <li class="nav-item text-left">
-						    <a class="nav-link py-4" data-toggle="tab" href="#services-4"><span class="flaticon-acupuncture mr-2"></span> Medical Acupuncture</a>
+                              <a class="nav-link py-4" data-toggle="tab" href="#services-4">
+                                <span class="mr-2">
+                                    <img src="{{ asset("fonts/flaticon/img/cough.png") }}" alt="" width="50">
+                                </span>
+                                  Cover coughs and sneezes
+                              </a>
 						  </li>
 						  <li class="nav-item text-left">
-						    <a class="nav-link py-4" data-toggle="tab" href="#services-5"><span class="flaticon-examination mr-2"></span> Therapeutic Exercise</a>
-						  </li>
+                              <a class="nav-link py-4" data-toggle="tab" href="#services-5">
+                                <span class="mr-2">
+                                    <img src="{{ asset("fonts/flaticon/img/clean.png") }}" alt="" width="50">
+                                </span>
+                                  Clean and Disinfect
+                              </a>
+                          </li>
 						  <li class="nav-item text-left">
-						    <a class="nav-link py-4" data-toggle="tab" href="#services-6"><span class="flaticon-bone mr-2"></span> Joint Mobilization</a>
+                              <a class="nav-link py-4" data-toggle="tab" href="#services-6">
+                                <span class="mr-2">
+                                    <img src="{{ asset("fonts/flaticon/img/monitoring.png") }}" alt="" width="50">
+                                </span>
+                                  Monitor Your Health
+                              </a>
 						  </li>
 						</ul>
 					</div>
@@ -94,33 +128,54 @@
 						<div class="tab-content">
 						  <div class="tab-pane container p-0 active" id="services-1">
 						  	<div class="img" style="background-image: url(images/work-2.jpg);"></div>
-						  	<h3><a href="#">Spinal Manupulation</a></h3>
-						  	<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+						  	<h3><a href="https://www.cdc.gov/handwashing/when-how-handwashing.html">Wash your hands often</a></h3>
+						  	<p>Wash your hands often with soap and water for at least 20 seconds especially after you have been in a public place, or after blowing your nose, coughing, or sneezing.
+                                If soap and water are not readily available, use a hand sanitizer that contains at least 60% alcohol. Cover all surfaces of your hands and rub them together until they feel dry.
+                                Avoid touching your eyes, nose, and mouth with unwashed hands.</p>
 						  </div>
 						  <div class="tab-pane container p-0 fade" id="services-2">
 						  	<div class="img" style="background-image: url(images/work-3.jpg);"></div>
-						  	<h3><a href="#">Electrotherapy</a></h3>
-						  	<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+						  	<h3>Avoid Close Contact</h3>
+						  	<p>Avoid close contact with people who are sick, even inside your home. If possible, maintain 6 feet between the person who is sick and other household members.
+                                Put distance between yourself and other people outside of your home.
+                                Remember that some people without symptoms may be able to spread virus.
+                                Stay at least 6 feet (about 2 arms’ length) from other people.
+                                Do not gather in groups.
+                                Stay out of crowded places and avoid mass gatherings.
+                                Keeping distance from others is especially important for people who are at higher risk of getting very sick.</p>
 						  </div>
 						  <div class="tab-pane container p-0 fade" id="services-3">
 						  	<div class="img" style="background-image: url(images/work-4.jpg);"></div>
-						  	<h3><a href="#">Manual Lymphatic</a></h3>
-						  	<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+						  	<h3>Cover your mouth and nose with a cloth face cover when around others</h3>
+						  	<p>You could spread COVID-19 to others even if you do not feel sick.
+                                Everyone should wear a cloth face cover when they have to go out in public, for example to the grocery store or to pick up other necessities.
+                                Cloth face coverings should not be placed on young children under age 2, anyone who has trouble breathing, or is unconscious, incapacitated or otherwise unable to remove the mask without assistance.
+                                The cloth face cover is meant to protect other people in case you are infected.
+                                Do NOT use a facemask meant for a healthcare worker.
+                                Continue to keep about 6 feet between yourself and others. The cloth face cover is not a substitute for social distancing.</p>
 						  </div>
 						  <div class="tab-pane container p-0 fade" id="services-4">
 						  	<div class="img" style="background-image: url(images/work-5.jpg);"></div>
-						  	<h3><a href="#">Medical Acupuncture</a></h3>
-						  	<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+						  	<h3>Cover coughs and sneezes</h3>
+						  	<p>If you are in a private setting and do not have on your cloth face covering, remember to always cover your mouth and nose with a tissue when you cough or sneeze or use the inside of your elbow.
+                                Throw used tissues in the trash.
+                                Immediately wash your hands with soap and water for at least 20 seconds. If soap and water are not readily available, clean your hands with a hand sanitizer that contains at least 60% alcohol.</p>
 						  </div>
 						  <div class="tab-pane container p-0 fade" id="services-5">
 						  	<div class="img" style="background-image: url(images/work-6.jpg);"></div>
-						  	<h3><a href="#">Therapeutic Exercise</a></h3>
-						  	<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+						  	<h3>Clean and Disinfect</h3>
+						  	<p>Clean AND disinfect frequently touched surfaces daily. This includes tables, doorknobs, light switches, countertops, handles, desks, phones, keyboards, toilets, faucets, and sinks.
+                                If surfaces are dirty, clean them. Use detergent or soap and water prior to disinfection.
+                                Then, use a household disinfectant. Most common EPA-registered household disinfectantsexternal icon will work.</p>
 						  </div>
 						  <div class="tab-pane container p-0 fade" id="services-6">
 						  	<div class="img" style="background-image: url(images/work-1.jpg);"></div>
-						  	<h3><a href="#">Joint Mobilization</a></h3>
-						  	<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+						  	<h3>Be alert for symptoms</h3>
+						  	<p>Watch for fever, cough, shortness of breath, or other symptoms of COVID-19.
+                                Especially important if you are running essential errands, going into the office or workplace, and in settings where it may be difficult to keep a physical distance of 6 feet.
+                                Take your temperature if symptoms develop.
+                                Don’t take your temperature within 30 minutes of exercising or after taking medications that could lower your temperature, like acetaminophen.
+                                Follow CDC guidance if symptoms develop.</p>
 						  </div>
 						</div>
 					</div>

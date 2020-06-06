@@ -14,11 +14,8 @@ use Stevebauman\Location\Facades\Location;
 |
 */
 
-Auth::routes();
 
 Route::get('/', 'PageController@index');
 Route::get('/countries', 'PageController@allCountries')->name('countries.all');
-
-Route::get('/home', 'HomeController@index')->name('home');
 
 

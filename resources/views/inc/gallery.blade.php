@@ -2,100 +2,43 @@
     <div class="container-fluid px-md-0">
         <div class="row no-gutters">
             <div class="col-md-3 ftco-animate">
-                <div class="work img d-flex align-items-center" style="background-image: url(images/work-1.jpg);">
-                    <a href="images/work-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-                        <span class="fa fa-expand"></span>
-                    </a>
-                    <div class="desc w-100 px-4 text-center pt-5 mt-5">
-                        <div class="text w-100 mb-3 mt-4">
-                            <h2><a href="work-single.html">Foot Pain</a></h2>
-                        </div>
-                    </div>
+                <div class="work img d-flex align-items-center" style="background-image: url({{ asset('images/gallery/1.jpg')  }});">
                 </div>
             </div>
             <div class="col-md-3 ftco-animate">
-                <div class="work img d-flex align-items-center" style="background-image: url(images/work-2.jpg);">
-                    <a href="images/work-2.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-                        <span class="fa fa-expand"></span>
-                    </a>
-                    <div class="desc w-100 px-4 text-center pt-5 mt-5">
-                        <div class="text w-100 mb-3 mt-4">
-                            <h2><a href="work-single.html">Arm Pain</a></h2>
-                        </div>
-                    </div>
+                <div class="work img d-flex align-items-center" style="background-image: url({{ asset('images/gallery/2.jpg')  }});">
+
                 </div>
             </div>
             <div class="col-md-3 ftco-animate">
-                <div class="work img d-flex align-items-center" style="background-image: url(images/work-3.jpg);">
-                    <a href="images/work-3.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-                        <span class="fa fa-expand"></span>
-                    </a>
-                    <div class="desc w-100 px-4 text-center pt-5 mt-5">
-                        <div class="text w-100 mb-3 mt-4">
-                            <h2><a href="work-single.html">Shoulder Pain</a></h2>
-                        </div>
-                    </div>
+                <div class="work img d-flex align-items-center" style="background-image: url({{ asset('images/gallery/3.jpg')  }});">
+
                 </div>
             </div>
             <div class="col-md-3 ftco-animate">
-                <div class="work img d-flex align-items-center" style="background-image: url(images/work-4.jpg);">
-                    <a href="images/work-4.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-                        <span class="fa fa-expand"></span>
-                    </a>
-                    <div class="desc w-100 px-4 text-center pt-5 mt-5">
-                        <div class="text w-100 mb-3 mt-4">
-                            <h2><a href="work-single.html">Back Pain</a></h2>
-                        </div>
-                    </div>
+                <div class="work img d-flex align-items-center" style="background-image: url({{ asset('images/gallery/4.jpg')  }});">
+
                 </div>
             </div>
 
             <div class="col-md-3 ftco-animate">
-                <div class="work img d-flex align-items-center" style="background-image: url(images/work-5.jpg);">
-                    <a href="images/work-5.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-                        <span class="fa fa-expand"></span>
-                    </a>
-                    <div class="desc w-100 px-4 text-center pt-5 mt-5">
-                        <div class="text w-100 mb-3 mt-4">
-                            <h2><a href="work-single.html">Head &amp; Migraines</a></h2>
-                        </div>
-                    </div>
+                <div class="work img d-flex align-items-center" style="background-image: url({{ asset('images/gallery/5.jpg')  }});">
+
                 </div>
             </div>
             <div class="col-md-3 ftco-animate">
-                <div class="work img d-flex align-items-center" style="background-image: url(images/work-6.jpg);">
-                    <a href="images/work-6.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-                        <span class="fa fa-expand"></span>
-                    </a>
-                    <div class="desc w-100 px-4 text-center pt-5 mt-5">
-                        <div class="text w-100 mb-3 mt-4">
-                            <h2><a href="work-single.html">Wear &amp; Tear</a></h2>
-                        </div>
-                    </div>
+                <div class="work img d-flex align-items-center" style="background-image: url({{ asset('images/gallery/6.png')  }});">
+
                 </div>
             </div>
             <div class="col-md-3 ftco-animate">
-                <div class="work img d-flex align-items-center" style="background-image: url(images/work-7.jpg);">
-                    <a href="images/work-7.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-                        <span class="fa fa-expand"></span>
-                    </a>
-                    <div class="desc w-100 px-4 text-center pt-5 mt-5">
-                        <div class="text w-100 mb-3 mt-4">
-                            <h2><a href="work-single.html">Arm Pain</a></h2>
-                        </div>
-                    </div>
+                <div class="work img d-flex align-items-center" style="background-image: url({{ asset('images/gallery/7.png')  }});">
+
                 </div>
             </div>
             <div class="col-md-3 ftco-animate">
-                <div class="work img d-flex align-items-center" style="background-image: url(images/work-8.jpg);">
-                    <a href="images/work-8.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-                        <span class="fa fa-expand"></span>
-                    </a>
-                    <div class="desc w-100 px-4 text-center pt-5 mt-5">
-                        <div class="text w-100 mb-3 mt-4">
-                            <h2><a href="work-single.html">Lower Back Pain</a></h2>
-                        </div>
-                    </div>
+                <div class="work img d-flex align-items-center" style="background-image: url({{ asset('images/gallery/8.png')  }});">
+
                 </div>
             </div>
         </div>
