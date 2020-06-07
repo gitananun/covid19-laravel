@@ -92,7 +92,7 @@
                 <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
                 <li class="nav-item"><a href="#armenia" class="nav-link">Armenia</a></li>
                 <li class="nav-item"><a href="#doctors" class="nav-link">Doctors</a></li>
-                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a href="#protect" class="nav-link">Protect</a></li>
             </ul>
         </div>
     </div>

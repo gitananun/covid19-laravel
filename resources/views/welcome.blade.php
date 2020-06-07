@@ -12,6 +12,9 @@
     @include('inc.booking')
     <!-- END booking -->
 
+    @include('inc.symptoms')
+    <!-- END Symptoms -->
+
     <div class="container mb-5" id="armenia" style="margin-top: 100px">
         <div class="row">
             <br/>
@@ -49,7 +52,7 @@
             </div>
         </div>
         <div class="text-center">
-            <a href="{{ route('countries.all') }}"><button class="btn btn-lg btn-info mt-5">SEE ALL COUNTRIES</button></a>
+            <a href="{{ route('countries.all') }}"><button class="btn btn-lg btn-info mt-4 mb-5">SEE ALL COUNTRIES</button></a>
         </div>
     </div>
 
@@ -62,7 +65,7 @@
     @include('inc.gallery')
     <!-- END gallery -->
 
-    <section class="ftco-section">
+    <section class="ftco-section" id="protect">
     	<div class="container">
     		<div class="row justify-content-center mb-5">
           <div class="col-md-8 text-center heading-section ftco-animate">

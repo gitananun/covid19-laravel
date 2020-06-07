@@ -6,9 +6,9 @@
                 <div class="row no-gutters slider-text align-items-center justify-content-end">
                     <div class="col-md-6 ftco-animate">
                         <div class="text w-100">
-                            <h1 class="mb-4">Welcome to our chiropractic centre</h1>
-                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                            <p><a href="#" class="btn btn-primary">Book an appointment</a></p>
+                            <h1 class="mb-4">Welcome to Our website</h1>
+                            <p>This Online informative desk is about providing worldwide information about COVID19</p>
+                            <p><a href="{{ route('countries.all') }}" class="btn btn-primary">Statistics of All Countries</a></p>
                         </div>
                     </div>
                 </div>
@@ -21,9 +21,9 @@
                 <div class="row no-gutters slider-text align-items-center justify-content-end">
                     <div class="col-md-6 ftco-animate">
                         <div class="text w-100">
-                            <h1 class="mb-4">Chiropractic care for the whole family</h1>
-                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                            <p><a href="#" class="btn btn-primary">Book an appointment</a></p>
+                            <h1 class="mb-4">Be Careful and Ready</h1>
+                            <p>Our Planet is under the attack of disease. Being protected and prepared can help to disinfect the Coronavirus</p>
+                            <p><a href="#protect" class="btn btn-primary">How Protect Yourself?</a></p>
                         </div>
                     </div>
                 </div>

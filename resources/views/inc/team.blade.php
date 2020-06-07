@@ -1,4 +1,4 @@
-<section class="ftco-section ftco-no-pb ftco-no-pt" id="doctors ">
+<section class="ftco-section ftco-no-pb ftco-no-pt mt-4" id="doctors">
     <div class="container-fluid px-md-0">
         <div class="row no-gutters justify-content-center pb-5 mb-3">
             <div class="col-md-7 heading-section text-center ftco-animate">
@@ -54,7 +54,7 @@
                         <span class="position mb-2 text-light">Occupation: Senior mental health nurse</span><br />
                         <small>Date of death: Unknown
                         </small>
-                       
+
                     </div>
                 </div>
             </div>
